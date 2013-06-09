@@ -1,0 +1,45 @@
+{
+  "name": "passport-moves",
+  "version": "0.0.1",
+  "description": "Moves authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "moves",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jorilallo/passport-moves.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jorilallo/passport-moves/issues"
+  },
+  "author": {
+    "name": "Jori Lallo",
+    "email": "jtlallo@gmail.com",
+    "url": "http://jorilallo.com/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-moves",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+}
